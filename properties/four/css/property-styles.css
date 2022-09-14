@@ -874,18 +874,19 @@ footer small a:hover {
     display: block;
   }
 
-  nav ul {
-    position: fixed;
+    nav ul {
+    position: relative;
     background: #fff;
-    right: -100%;
+    /* right: -100%; */
+    left:0;
     top: 0;
     margin: 0;
-    padding: 2rem;
+    padding: 5px;
     height: 100%;
-    width: 300px;
+    width: 500px;
     box-sizing: border-box;
     box-shadow: 5px 0 10px 3px #999;
-  }
+  }  
 
   #close-flyout {
     position: absolute;
